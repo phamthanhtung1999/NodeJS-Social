@@ -10,7 +10,7 @@ on:
 jobs:
   lint: 
     runs-on: ubuntu-latest
-     steps:
+    steps:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Use Node.js v18
